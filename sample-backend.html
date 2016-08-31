@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+    <head>
+        <esi:include src="http://wp-aballoc-service/v9/document-setup.html-esi?apps=mobileweb-fe+ecomm-fe&amp;etUrl=prd" />
+        <!-- This is an inline <script> that adds window.NYTD.Abra(){...} and sets up <html data-nyt-ab="...">
+             with your A/B buckets. Varnish appends '&agentId=...' (nyt-a) to the URL of this ESI to
+             personalize the response for you. -->
+        <style>
+            /* CSS interface example. Since we have <html data-nyt-ab="...">, we can do this: */
+            html[data-nyt-ab~="MW_noAds=1"] .advert {
+                display: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="advert">some advertisement</div>
+        <script>
+            // JavaScript interface example. Since we have window.NYTD.Abra(), we can do this:
+            if (NYTD.Abra("MW_ClientCookieCheck")) {
+                document.write("some synchronous thing");
+            }
+        </script>
+    </body>
+</html>

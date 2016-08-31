@@ -1,0 +1,184 @@
+{
+  "ecomm-fe": {
+    "EC_SampleTest": [
+      { "ubx32": 2147483648, "value": "variantA", "report": false },
+      { "ubx32": 4294967296, "value": "variantB", "report": false }
+    ]
+  },
+  "mobileweb-fe": {
+    "MW_SurfaceBriefing": [
+      { "ubx32": 4294967296, "value": null, "report": false }
+    ],
+    "MW_collectionsRecirc1": [
+      { "ubx32": 4294967296, "value": null, "report": false }
+    ],
+    "MW_homescreenSaved": [
+      { "ubx32": 2147483648, "value": null, "report": true },
+      { "ubx32": 4294967296, "value": "1", "report": true }
+    ],
+    "MW_ClientCookieCheck": [
+      { "ubx32": 4294967296, "value": "on", "report": false }
+    ],
+    "MW_topStoriesACM": [
+      { "ubx32": 858993460, "value": "0", "report": true },
+      { "ubx32": 1717986919, "value": "1", "report": true },
+      { "ubx32": 4294967296, "value": null, "report": false }
+    ],
+    "MW_mostPopularByCountryACMv3": [
+      { "ubx32": 4294967296, "value": null, "report": false }
+    ],
+    "MW_headerBidder": [
+      { "ubx32": 429496730, "value": null, "report": true },
+      { "ubx32": 4294967296, "value": "1", "report": true }
+    ],
+    "MW_noAds": [
+      { "ubx32": 42949673, "value": null, "report": true },
+      { "ubx32": 85899346, "value": "1", "report": true },
+      { "ubx32": 4294967296, "value": null, "report": false }
+    ],
+    "MW_storyAdThreshold": [
+      { "ubx32": 42949673, "value": null, "report": true },
+      { "ubx32": 85899346, "value": "cb", "report": true },
+      { "ubx32": 4294967296, "value": null, "report": false }
+    ],
+    "HOME_ComingUp": [
+      { "ubx32": 2147483648, "value": "control", "report": true },
+      { "ubx32": 4294967296, "value": "comingup", "report": true }
+    ]
+  },
+  "mobileweb-varnish": {
+    "MW_ServerSideGlogin": [
+      { "ubx32": 4294967296, "value": "on", "report": false }
+    ]
+  },
+  "personalization": {
+    "PER_SampleTest": [
+      { "ubx32": 2147483648, "value": "VarA", "report": false },
+      { "ubx32": 4294967296, "value": "VarB", "report": false }
+    ]
+  },
+  "timesvideo-fe-dom": {
+    "TV_DomAA": [
+      { "ubx32": 2147483648, "value": "A", "report": true },
+      { "ubx32": 4294967296, "value": "B", "report": true }
+    ]
+  },
+  "timesvideo-fe-js": {
+    "TV_JsAA": [
+      { "ubx32": 2147483648, "value": "A", "report": true },
+      { "ubx32": 4294967296, "value": "B", "report": true }
+    ]
+  },
+  "timesvideo-varnish": {
+    "TV_VarnishAA": [
+      { "ubx32": 2147483648, "value": "A", "report": true },
+      { "ubx32": 4294967296, "value": "B", "report": true }
+    ]
+  },
+  "www-article": {
+    "www-article-sample": [
+      { "ubx32": 429496730, "value": null, "report": true },
+      { "ubx32": 1717986919, "value": "1a", "report": true },
+      { "ubx32": 2147483648, "value": "1b", "report": true },
+      { "ubx32": 3865470567, "value": "2a", "report": true },
+      { "ubx32": 3908420240, "value": "2b", "report": true },
+      { "ubx32": 4294967296, "value": null, "report": false }
+    ]
+  },
+  "www-collection": {
+    "www-collection-sample": [
+      { "ubx32": 429496730, "value": null, "report": true },
+      { "ubx32": 1717986919, "value": "1a", "report": true },
+      { "ubx32": 2147483648, "value": "1b", "report": true },
+      { "ubx32": 3865470567, "value": "2a", "report": true },
+      { "ubx32": 3908420240, "value": "2b", "report": true },
+      { "ubx32": 4294967296, "value": null, "report": false }
+    ]
+  },
+  "www-form": {
+    "www-form-sample": [
+      { "ubx32": 429496730, "value": null, "report": true },
+      { "ubx32": 1717986919, "value": "1a", "report": true },
+      { "ubx32": 2147483648, "value": "1b", "report": true },
+      { "ubx32": 3865470567, "value": "2a", "report": true },
+      { "ubx32": 3908420240, "value": "2b", "report": true },
+      { "ubx32": 4294967296, "value": null, "report": false }
+    ]
+  },
+  "www-homepage": {
+    "HOME_ComingUp": [
+      { "ubx32": 2147483648, "value": "control", "report": true },
+      { "ubx32": 4294967296, "value": "comingup", "report": true }
+    ],
+    "HOME_NewsEvent2": [
+      { "ubx32": 3865470567, "value": "full", "report": true },
+      { "ubx32": 4294967296, "value": "control", "report": true }
+    ],
+    "www-homepage-sample": [
+      { "ubx32": 429496730, "value": null, "report": true },
+      { "ubx32": 1717986919, "value": "1a", "report": true },
+      { "ubx32": 2147483648, "value": "1b", "report": true },
+      { "ubx32": 3865470567, "value": "2a", "report": true },
+      { "ubx32": 3908420240, "value": "2b", "report": true },
+      { "ubx32": 4294967296, "value": null, "report": false }
+    ]
+  },
+  "www-interactive": {
+    "www-interactive-sample": [
+      { "ubx32": 429496730, "value": null, "report": true },
+      { "ubx32": 1717986919, "value": "1a", "report": true },
+      { "ubx32": 2147483648, "value": "1b", "report": true },
+      { "ubx32": 3865470567, "value": "2a", "report": true },
+      { "ubx32": 3908420240, "value": "2b", "report": true },
+      { "ubx32": 4294967296, "value": null, "report": false }
+    ],
+    "www-story-slideshow-experience": [
+      { "ubx32": 2147483648, "value": null, "report": true },
+      { "ubx32": 4294967296, "value": "1", "report": true }
+    ]
+  },
+  "www-newsletters": {
+    "www-newsletters-sample": [
+      { "ubx32": 429496730, "value": null, "report": true },
+      { "ubx32": 1717986919, "value": "1a", "report": true },
+      { "ubx32": 2147483648, "value": "1b", "report": true },
+      { "ubx32": 3865470567, "value": "2a", "report": true },
+      { "ubx32": 3908420240, "value": "2b", "report": true },
+      { "ubx32": 4294967296, "value": null, "report": false }
+    ]
+  },
+  "www-realestate": {
+    "www-realestate-sample": [
+      { "ubx32": 429496730, "value": null, "report": true },
+      { "ubx32": 1717986919, "value": "1a", "report": true },
+      { "ubx32": 2147483648, "value": "1b", "report": true },
+      { "ubx32": 3865470567, "value": "2a", "report": true },
+      { "ubx32": 3908420240, "value": "2b", "report": true },
+      { "ubx32": 4294967296, "value": null, "report": false }
+    ],
+    "WWW_NewRelicFooter": [
+      { "ubx32": 429496730, "value": "on", "report": false },
+      { "ubx32": 4294967296, "value": null, "report": false }
+    ]
+  },
+  "www-slideshow": {
+    "www-slideshow-sample": [
+      { "ubx32": 429496730, "value": null, "report": true },
+      { "ubx32": 1717986919, "value": "1a", "report": true },
+      { "ubx32": 2147483648, "value": "1b", "report": true },
+      { "ubx32": 3865470567, "value": "2a", "report": true },
+      { "ubx32": 3908420240, "value": "2b", "report": true },
+      { "ubx32": 4294967296, "value": null, "report": false }
+    ]
+  },
+  "www-trending": {
+    "www-trending-sample": [
+      { "ubx32": 429496730, "value": null, "report": true },
+      { "ubx32": 1717986919, "value": "1a", "report": true },
+      { "ubx32": 2147483648, "value": "1b", "report": true },
+      { "ubx32": 3865470567, "value": "2a", "report": true },
+      { "ubx32": 3908420240, "value": "2b", "report": true },
+      { "ubx32": 4294967296, "value": null, "report": false }
+    ]
+  }
+}
